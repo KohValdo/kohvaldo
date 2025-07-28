@@ -1,0 +1,106 @@
+/* Reset default margin & padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+nav {
+    background-color: #ff861c;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Section styling */
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#beranda {
+    background: linear-gradient(135deg, #f39c12, #d35400);
+    color: white;
+}
+
+#tentang {
+    background-color: #ecf0f1;
+}
+
+#kontak {
+    background-color: #bdc3c7;
+}
+
+/* Foto profil */
+#tentang img {
+    border-radius: 50%;
+    border: 4px solid #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Judul dan teks */
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Kontak & Sosial Media */
+#kontak ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#kontak ul li {
+    margin: 10px 15px;
+}
+
+#kontak ul li a {
+    text-decoration: none;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+#kontak ul li a:hover {
+    background-color: #f39c12;
+}
